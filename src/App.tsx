@@ -10,7 +10,7 @@ import { DeliveryDataContextProvider } from './contexts/DeliveryDataContext'
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <BrowserRouter>
+      <BrowserRouter basename="/rocketseat-ignite-challenge-coffee-delivery/">
         <CartContextProvider>
           <DeliveryDataContextProvider>
             <Router />
